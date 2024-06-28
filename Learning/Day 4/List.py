@@ -47,3 +47,19 @@ print(x*3)
 print(3 in y)
 
 print(6 in y)
+
+# nested list
+
+newList=[[1,2,3],[4,5,6],[7,8,9]]
+
+for i in newList:
+    print(i)
+
+for i in range(len(newList)):
+    for j in range(len(newList[i])):
+        print(newList[i][j],end=" ")
+    print()
+
+print(min(list))
+
+print(max(list))
