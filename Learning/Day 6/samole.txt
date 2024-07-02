@@ -1,0 +1,28 @@
+# r - to read the exiting file
+
+    -> cursor pointer is placed at the beginnig of the flie
+    -> it does'nt override the exiting content
+    -> if the flie is not exist it show the " file not found error"
+    ->file.read() - it used to read the flie
+    ->file.readline() - it read the fisrt line attomatically moves to 2nd line of cursor
+    ->file.readlines -it is used in for loop
+
+# w -> open a exiting file for write operation
+
+    ->  file.write()  file.writelines()  both are same
+    -> it does override the exiting content
+    -> if the flie is not exist it create the new file
+
+# a -> open a exiting file for write operation
+
+    -> it does override the exiting content
+    -> if the flie is not exist it create the new filelol
+
+# r+ -> both read and write operation
+
+# w+ -> both read and write operation
+
+# a+ -> both read and write operation
+
+x-> it check wether the file is already exist means it create a new file
+
